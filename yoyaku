@@ -1,0 +1,36 @@
+<!-- セクション①：レンタルスペース予約フォーム -->
+<section id="reservation" class="reservation-section">
+  <h2>レンタルスペースのご予約</h2>
+  <form action="/booking/submit" method="post">
+    <div class="form-group">
+      <label for="user-name">お名前<span class="required">*</span></label>
+      <input type="text" id="user-name" name="name" placeholder="山田 太郎" required>
+    </div>
+    <div class="form-group">
+      <label for="user-email">メールアドレス<span class="required">*</span></label>
+      <input type="email" id="user-email" name="email" placeholder="example@example.com" required>
+    </div>
+    <div class="form-group">
+      <label for="reservation-date">予約希望日<span class="required">*</span></label>
+      <input type="date" id="reservation-date" name="date" required>
+    </div>
+    <div class="form-group">
+      <label for="reservation-time">利用時間帯<span class="required">*</span></label>
+      <select id="reservation-time" name="time" required>
+        <option value="">— 選択してください —</option>
+        <option value="9:00-12:00">9:00 – 12:00</option>
+        <option value="13:00-17:00">13:00 – 17:00</option>
+        <option value="18:00-21:00">18:00 – 21:00</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="participants">利用人数</label>
+      <input type="number" id="participants" name="participants" min="1" max="20" placeholder="5">
+    </div>
+    <div class="form-group">
+      <label for="comments">備考</label>
+      <textarea id="comments" name="comments" rows="4" placeholder="ご要望などがあればご記入ください"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">予約する</button>
+  </form>
+</section>
