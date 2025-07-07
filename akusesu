@@ -1,0 +1,22 @@
+<!-- セクション③：アクセス情報 -->
+<section id="access" class="access-section">
+  <h2>アクセス</h2>
+  <div class="access-details">
+    <ul>
+      <li><strong>住所:</strong> 〒620-0029 京都府福知山市下新10</li>
+      <li><strong>電話:</strong> <a href="tel:090-5157-0165">090-5157-0165</a></li>
+      <li><strong>メール:</strong> <a href="mailto:info@gel-banana.jp">info@gel-banana.jp</a></li>
+      <li><strong>営業時間:</strong> 9:00 – 21:00</li>
+      <li><strong>定休日:</strong> 水曜日</li>
+    </ul>
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!...（省略）"
+        width="600" height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
+    </div>
+  </div>
+</section>
